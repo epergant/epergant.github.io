@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Arash J. Khabbazi"
+title                    : "Elias Nikolaos Pergantis"
 title_separator          : "-"
-name                     : &name "Arash Jalil Khabbazi"
+name                     : &name "Elias Nikolaos Pergantis"
 description              : &description "personal description"
-url                      : https://arashjkh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://epergant.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "arashjkh/arashjkh.github.io"
+repository               : "epergant/epergant.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -78,14 +78,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Arash Jalil Khabbazi"
+  name             : "Elias Nikolaos Pergantis"
   avatar           : "IMG_4623.jpg"
-  bio              : "Ph.D. Student in Mechanical Engineering"
+  bio              : "Ph.D. Candidate in Mechanical Engineering"
   location         : "IN, USA"
   employer         : #"Purdue University"
   pubmed           : 
-  googlescholar    : https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AP6z3OZiab4BUHBahVV7kKVwfZKsUWAzfdPzb2cL93pVa1PI1ZkoD-qtb2rKsBW022rgb6ywzp1hvQMcRKiW3g&user=yIX3RKsAAAAJ
-  email            : arashjkh@gmail.com
+  googlescholar    : https://scholar.google.com/citations?user=vT9DWr4AAAAJ&hl=el
+  email            : ilias.pergantis97@gmail.com
   researchgate     :  
   uri              :
   bitbucket        :
@@ -94,13 +94,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "arashjkh"
+  github           : "epergant"
   google_plus      :
   keybase          :
   instagram        : #jk_arash
   impactstory      : 
   lastfm           :
-  linkedin         : arashjkh
+  linkedin         : https://www.linkedin.com/in/elias-pergantis-370a1412b/
   orcid            : 
   pinterest        :
   soundcloud       :

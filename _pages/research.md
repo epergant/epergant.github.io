@@ -1,11 +1,11 @@
 ---
+layout: single
+classes: wide
+title: "Research Projects"
 permalink: /research/
-
-excerpt: "Home"
 author_profile: true
-redirect_from: 
-  - /research/
-  - /research.html
+redirect_from:
+  - /research
 ---
 
 <style>

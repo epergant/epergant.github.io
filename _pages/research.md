@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /research
 
 excerpt: "Home"
 author_profile: true

@@ -51,5 +51,35 @@ In this work, we developed a novel smart controller (USPTO preliminary disclosur
 
 During my PhD and my internship at the Advanced Technology Group of Lennox International (Carrollton, Texas), I have been involved in multiple projects, including defrost modeling, an advanced controller for backup heat in heat pumps (to improve comfort), equipment A2L leakage testing, sensor integration, and cloud storage, advanced cycle architecture designs.
 
+<div style="text-align: center;">
+  <img src="../images/blockDiagram.png" alt="Alt Text" width="400" height="400">
+</div>
 
+Block diagram of a fully networked IoT infrastructure for our test house. We can read measurements from a water heater, a heat pump, a smart thermostat, and an electrical smart meter. This allows us generating all our machine learning and grey box models in our house.
+
+<div style="text-align: center;">
+  <img src="../images/Conceptual-diagram-of-technology1-1 (2).png" alt="Alt Text" width="400" height="400">
+</div>
+
+A smart rule-based scheduling system for PWM modulation of backup heat supply (USPTO patent pending).
+
+<div style="text-align: center;">
+  <img src="../images/mpc_vs_rbc_spec_day.jpg" alt="Alt Text" width="400" height="400">
+</div>
+
+First demonstration of frost regulation through smart set-point adjustment, a journal presentation is in the making.
+
+<div style="text-align: center;">
+  <img src="../images/Picture3.png" alt="Alt Text" width="400" height="400">
+</div>
+
+<div style="text-align: center;">
+  <img src="../images/picture_of_elhp.jpg" alt="Alt Text" width="400" height="400">
+</div>
+
+The chemical looping heat pump, is a novel electrochemical cycle that uses phase change reactions to avoid the need for a compressor. I worked on advancing the cycle in heating operation, 
+
+<div style="text-align: center;">
+  <img src="../images/cycle_architecture.png" alt="Alt Text" width="400" height="400">
+</div>
 

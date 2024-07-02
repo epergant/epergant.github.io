@@ -27,3 +27,13 @@ Before joining Purdue, I worked as a Graduate Research Assistant at the <a href=
 I am actively seeking full-time positions in thermal systems, HVAC, smart controls, machine learning, and other engineering-tech positions focusing on sustainability. I am expected to receive my degree this December.
 
 Here is my <b><a href="https://epergant.github.io/files/CV_Pergantis.pdf" target="_blank" style="color: black; text-decoration:none;">CV</a></b>.
+
+Some more highlights of my work:
+- Successfully brought to completion four major projects involving smart control implementations in real-world buildings.
+- Developed novel data-based controllers for the coordination of assets (heat pumps, water heaters, PVs, EVs) in residential buildings with significant performance achievement.
+- Worked in the development of two novel thermodynamic cycles, one for <a href="https://heatpumpingtechnologies.org/news/1/58534/" target="_blank" style="color: black; text-decoration: underline;">high-temperature heat pumps </a> and another for space conditioning using  <a href="https://www.energy.gov/eere/buildings/articles/no-vapor-compression-electrochemical-looping-heat-pump-novel-hp" target="_blank" style="color: black; text-decoration: underline;">chemical reactions </a>.
+- Advised 9 undergraduate and 4 graduate students.
+- Worked under major DOE and CHPB (Purdue) funding.
+- Presented and co-authored 7 conference papers, 6 in preparation.
+- Published 1 journal as first author (Applied Energy IF = 12), 3 in preparation. 
+- Reviewer for STBE (ASHRAE), reviewed papers for 10 ASHRAE and Purdue conferences.

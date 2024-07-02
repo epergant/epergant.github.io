@@ -30,7 +30,7 @@ Here is my <b><a href="https://epergant.github.io/files/CV_Pergantis.pdf" target
 
 Some more highlights of my work:
 - Successfully brought to completion four major projects involving smart control implementations in real-world buildings.
-- Developed novel data-based controllers for the coordination of assets (heat pumps, water heaters, PVs, EVs) in residential buildings with significant performance achievement.
+- Developed novel data-based controllers for the coordination of assets (heat pumps, water heaters, PVs, EVs) in residential buildings with significant performance achievements.
 - Worked in the development of two novel thermodynamic cycles, one for <a href="https://heatpumpingtechnologies.org/news/1/58534/" target="_blank" style="color: black; text-decoration: underline;">high-temperature heat pumps </a> and another for space conditioning using  <a href="https://www.energy.gov/eere/buildings/articles/no-vapor-compression-electrochemical-looping-heat-pump-novel-hp" target="_blank" style="color: black; text-decoration: underline;">chemical reactions </a>.
 - Advised 9 undergraduate and 4 graduate students.
 - Worked under major DOE and CHPB (Purdue) funding.

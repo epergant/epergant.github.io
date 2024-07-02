@@ -11,8 +11,6 @@ author_profile: true
   }
 </style>
 
-<br>
-
 **Advanced heat pump controls for efficiency improvement**
 
 As part of the Ray. W. Herrick Laboratories, I have been leading the development and testing of smart controls for heat pumps and water heaters at a real home test bed on the Purdue Campus:
@@ -29,12 +27,15 @@ We developed two data-driven controllers (heating and cooling operation), which 
   <img src="../images/savings_timeseries.jpg" alt="Alt Text" width="400" height="400">
 </div>
 
+<br>
+
 <div style="text-align: center;">
   <img src="../images/performance.jpg" alt="Alt Text" width="400" height="400">
 </div>
 
 **Whole home multi-device solutions**
-Recent work (EPRI 2023), found that as much as 20 million homes in the US in the coming decade will need to upgrade their electrical panel to support electrification of the space conditioning (heat pump), water heating (heat pump water heaters, electric water heaters), electric vehicle on-site charging, etc. They substantiated their findings through survey and models of the current residential building stock in the US, highlighting limitations in cold climate regions due to a reliance to gas furnace and the need for resistive backup heat in the case of heat pumps.
+
+A <a href="https://www.epri.com/research/products/000000003002026736" target="_blank" style="color: black; text-decoration: underline;">recent EPRI report</a>, found that as much as 20 million homes in the US in the coming decade will need to upgrade their electrical panel to support electrification of the space conditioning (heat pump), water heating (heat pump water heaters, electric water heaters), electric vehicle on-site charging, etc. They substantiated their findings through survey and models of the current residential building stock in the US, highlighting limitations in cold climate regions due to a reliance to gas furnace and the need for resistive backup heat in the case of heat pumps.
 
 <div style="text-align: center;">
   <img src="../images/Breaker_panels.jpg" alt="Alt Text" width="400" height="400">

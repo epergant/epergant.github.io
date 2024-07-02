@@ -46,3 +46,10 @@ In this work, we developed a novel smart controller (USPTO preliminary disclosur
 <div style="text-align: center;">
   <img src="../images/flow_chart_updated.jpg" alt="Alt Text" width="400" height="400">
 </div>
+
+**Thermal equipment, communication protocols and other work**
+
+During my PhD and my internship at the Advanced Technology Group of Lennox International (Carrollton, Texas), I have been involved in multiple projects, including defrost modeling, an advanced controller for backup heat in heat pumps (to improve comfort), equipment A2L leakage testing, sensor integration, and cloud storage, advanced cycle architecture designs.
+
+
+

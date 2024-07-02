@@ -16,7 +16,7 @@ author_profile: true
 As part of the Ray. W. Herrick Laboratories, I have been leading the development and testing of smart controls for heat pumps and water heaters at a real home test bed on the Purdue Campus:
 
 <div style="text-align: center;">
-  <img src="../images/DC_house.png" alt="Alt Text" width="400" height="400">
+  <img src="../images/DC_House.png" alt="Alt Text" width="400" height="400">
 </div>
 
 <br>

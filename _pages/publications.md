@@ -35,7 +35,7 @@ We developed two data-driven controllers (heating and cooling operation), which 
 
 **Whole home multi-device solutions**
 
-A <a href="https://www.epri.com/research/products/000000003002026736" target="_blank" style="color: black; text-decoration: underline;">recent EPRI report</a>, found that as much as 20 million homes in the US in the coming decade will need to upgrade their electrical panel to support electrification of the space conditioning (heat pump), water heating (heat pump water heaters, electric water heaters), electric vehicle on-site charging, etc. They substantiated their findings through survey and models of the current residential building stock in the US, highlighting limitations in cold climate regions due to a reliance to gas furnace and the need for resistive backup heat in the case of heat pumps.
+A <a href="https://www.epri.com/research/products/000000003002026736" target="_blank" style="color: black; text-decoration: underline;">recent EPRI report</a>, found that as much as 20 million homes in the US in the coming decade will need to upgrade their electrical panel to support the electrification of the space conditioning (heat pump), water heating (heat pump water heaters, electric water heaters), electric vehicle on-site charging, etc. They substantiated their findings through surveys and models of the current residential building stock in the US, highlighting limitations in cold climate regions due to a reliance on gas furnaces and the need for resistive backup heat in the case of heat pumps.
 
 <div style="text-align: center;">
   <img src="../images/Breaker_panels.jpg" alt="Alt Text" width="400" height="400">
@@ -47,7 +47,7 @@ In this work, we developed a novel smart controller (USPTO preliminary disclosur
   <img src="../images/flow_chart_updated.jpg" alt="Alt Text" width="400" height="400">
 </div>
 
-**Thermal equipment, communication protocols and other work**
+**Thermal equipment, communication protocols, and other work**
 
 During my PhD and my internship at the Advanced Technology Group of Lennox International (Carrollton, Texas), I have been involved in multiple projects, including defrost modeling, an advanced controller for backup heat in heat pumps (to improve comfort), equipment A2L leakage testing, sensor integration, and cloud storage, advanced cycle architecture designs.
 
@@ -77,9 +77,10 @@ First demonstration of frost regulation through smart set-point adjustment, a jo
   <img src="../images/picture_of_elhp.jpg" alt="Alt Text" width="400" height="400">
 </div>
 
-The chemical looping heat pump, is a novel electrochemical cycle that uses phase change reactions to avoid the need for a compressor. I worked on advancing the cycle in heating operation, designing the thermal management system of the fuel cell, and finding appropriate working substances.
+The chemical looping heat pump is a novel electrochemical cycle that uses phase change reactions to avoid the need for a compressor. I worked on advancing the cycle in heating operation, designing the thermal management system of the fuel cell, and finding appropriate working substances.
 
 <div style="text-align: center;">
   <img src="../images/cycle_architecture.png" alt="Alt Text" width="300" height="300">
 </div>
 
+High-temperature heat pumps (HTHPs) have significant potential for decarbonizing the process industry. However, they suffer from efficiency degradations at high lift temperatures (the difference between source and sink) as well as a loss of capacity. As such, most advanced HTHPs use a cascade cycle with two separate refrigerant loops. We proposed a modification to the common cascade cycle by introducing an open economizer to the upper cascade loop, leading to significant efficiency improvements and safer operation of the compressor at a minimal cost.

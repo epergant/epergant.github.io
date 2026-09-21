@@ -55,7 +55,7 @@ We developed a novel active current-limiting controller that coordinates on-site
 
 **Frost mitigation through smart load regulation**
 
-Frost accumulation on outdoor coils is one of the largest sources of efficiency loss and comfort degradation for air-source heat pumps in cold and humid climates. We demonstrated that active load regulation — using a smart controller to modulate the operating point of the heat pump — can materially reduce frost accumulation without hardware changes, published at <a href="https://doi.org/10.34641/clima.2025.319" target="_blank" style="color: black; text-decoration: underline;">CLIMA 2025 (Milan)</a>, with an extended journal version in preparation.
+Frost accumulation on outdoor coils is one of the largest sources of efficiency loss and comfort degradation for air-source heat pumps in cold and humid climates. We demonstrated that active load regulation — using a smart controller to modulate the operating point of the heat pump — can materially reduce frost accumulation without hardware changes, published at <a href="https://link.springer.com/chapter/10.1007/978-3-032-10546-2_8" target="_blank" style="color: black; text-decoration: underline;">CLIMA 2025 (Milan)</a>, with an extended journal version in preparation.
 
 <div style="text-align: center;">
   <img src="../images/mpc_vs_rbc_spec_day.jpg" alt="MPC vs. rule-based control on a representative winter day" width="600" height="600">

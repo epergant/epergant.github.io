@@ -46,7 +46,7 @@ MPC has consistently delivered energy savings in HVAC field studies, but it requ
 To probe these trade-offs directly, we deployed an MPC and a model-based RL controller side-by-side in an occupied house with a heat pump in West Lafayette, Indiana, running each for a one-month period and evaluating both against the incumbent thermostat. The study focused on scalability, safety guarantees, and comparability across paradigms, and was carried out jointly with collaborators at Carnegie Mellon University. A preprint is available on <a href="https://arxiv.org/abs/2510.01475" target="_blank" style="color: black; text-decoration: underline;">arXiv</a> (under review at <i>Applied Energy</i>).
 
 <div style="text-align: center;">
-  <img src="../images/MPC_vs_RL.png" alt="MPC vs RL paradigm" width="400" height="400">
+  <img src="../images/MPC_vs_RL.png" alt="MPC vs RL paradigm" width="500" height="500">
 </div>
 
 **Data-driven estimation of residential design loads at scale**
@@ -56,7 +56,7 @@ Oversized heating and cooling equipment inflates up-front cost, energy use, emis
 We tested the methods on a dataset we assembled across 74 detached single-family houses in five US climate zones, combining thermostat telemetry, utility bills, weather data, existing equipment specifications, and practitioner Manual J calculations. Both methods showed strong goodness-of-fit and fair agreement with each other, and revealed that existing heating equipment is on average 2.75× (thermostat method) to 2.96× (bill method) larger than needed — with the top of the distribution reaching 6–7× oversizing. The <a href="https://arxiv.org/abs/2609.07619" target="_blank" style="color: black; text-decoration: underline;">preprint is on arXiv</a>.
 
 <div style="text-align: center;">
-  <img src="../images/Map_manualJ.png" alt="Locations of investigated homes" width="400" height="400">
+  <img src="../images/Map_manualJ.png" alt="Locations of investigated homes" width="500" height="500">
 </div>
 
 **Whole-home load coordination and electrical panel protection**

@@ -11,76 +11,64 @@ author_profile: true
   }
 </style>
 
-**Advanced heat pump controls for efficiency improvement**
+**Smart HVAC and thermostat controls at Trane Technologies**
 
-As part of the Ray. W. Herrick Laboratories, I have been leading the development and testing of smart controls for heat pumps and water heaters at a real home test bed on the Purdue Campus:
+As a Lead Engineer in the Residential R&D group at Trane Technologies, I develop advanced control algorithms for residential HVAC equipment and smart thermostats. My work spans model identification from lab and field data, model-based and machine-learning-based control (including model predictive control), hardware-in-the-loop (HIL) validation, and production embedded code generated from Modelica and MATLAB/Simulink toolchains. Broader themes include electrification of residential heating, occupant-centric comfort, user-facing energy-saving features, and grid-interactive building operation. Recent contributions have led to five patent applications on smart HVAC, thermostat, and residential energy control.
+
+**Field-validated predictive control for residential HVAC**
+
+At Purdue's Ray W. Herrick Laboratories, I led multi-year field studies of predictive control on a fully-instrumented all-electric test home on the Purdue campus. The controllers combine grey-box thermal models identified from operational data with short-horizon load and weather forecasts, and were validated against thermostat baselines across multiple heating and cooling seasons.
 
 <div style="text-align: center;">
-  <img src="../images/DC_House.png" alt="Alt Text" width="400" height="400">
+  <img src="../images/DC_House.png" alt="Purdue all-electric test home" width="400" height="400">
 </div>
 
 <br>
 
-We developed two data-driven controllers (heating and cooling operation), which through fusing identification and machine learning techniques were able to provide significant occupant savings.
+For heating, we developed and deployed an MPC for an air-source heat pump in a cold-climate winter, achieving significant reductions in electricity use and demand relative to a well-tuned thermostat baseline (<a href="https://doi.org/10.1016/j.apenergy.2024.122820" target="_blank" style="color: black; text-decoration: underline;">Applied Energy, 2024</a>). For cooling, we extended the framework with a humidity-aware formulation that jointly manages sensible and latent loads, validated in a summer field study (<a href="https://doi.org/10.1016/j.buildenv.2024.112093" target="_blank" style="color: black; text-decoration: underline;">Building and Environment, 2024</a>).
 
 <div style="text-align: center;">
-  <img src="../images/savings_timeseries.jpg" alt="Alt Text" width="400" height="400">
+  <img src="../images/savings_timeseries.jpg" alt="Field-measured savings time series" width="400" height="400">
 </div>
 
 <br>
 
 <div style="text-align: center;">
-  <img src="../images/performance.jpg" alt="Alt Text" width="400" height="400">
+  <img src="../images/performance.jpg" alt="Controller performance summary" width="400" height="400">
 </div>
 
-**Whole home multi-device solutions**
+Broader lessons from these and related field studies — including a synthesis of what works and what does not when deploying MPC and reinforcement learning on real residential and commercial HVAC systems — are documented in a recent review in <a href="https://doi.org/10.1016/j.apenergy.2025.126459" target="_blank" style="color: black; text-decoration: underline;">Applied Energy (2025)</a>.
 
-A <a href="https://www.epri.com/research/products/000000003002026736" target="_blank" style="color: black; text-decoration: underline;">recent EPRI report</a>, found that as much as 20 million homes in the US in the coming decade will need to upgrade their electrical panel to support the electrification of the space conditioning (heat pump), water heating (heat pump water heaters, electric water heaters), electric vehicle on-site charging, etc. They substantiated their findings through surveys and models of the current residential building stock in the US, highlighting limitations in cold climate regions due to a reliance on gas furnaces and the need for resistive backup heat in the case of heat pumps.
+**Whole-home load coordination and electrical panel protection**
+
+A <a href="https://www.epri.com/research/products/000000003002026736" target="_blank" style="color: black; text-decoration: underline;">recent EPRI report</a> estimated that as many as 20 million US homes will need to upgrade their electrical panel over the coming decade to support the electrification of space conditioning, water heating, and on-site EV charging — with cold-climate regions particularly affected due to reliance on gas furnaces and resistive backup heat. Panel upgrades typically cost thousands of dollars per home.
 
 <div style="text-align: center;">
-  <img src="../images/Breaker_panels.jpg" alt="Alt Text" width="400" height="400">
+  <img src="../images/Breaker_panels.jpg" alt="Residential breaker panels" width="400" height="400">
 </div>
 
-In this work, we developed a novel smart controller (USPTO preliminary disclosure) that can coordinate the coordination of multiple on-site assets to ensure buildings operate at a much smaller breaker panel rating than current NEC standards require, and in the case of the test-site on the Purdue campus, the breaker panel before its complete electrification (100 A), with a current rating of 200 A. With the cost of a breaker panel being in the order of $2-10,000, this technology can potentially save millions of dollars for homeowners without the need for any hardware additions.
+We developed a novel active current-limiting controller that coordinates on-site assets (heat pumps, heat pump water heaters, EV chargers, PV) so a home can operate reliably under a much smaller service rating than current NEC guidance would require — in our test-site case, keeping a fully-electrified home under its original 100 A panel where a 200 A upgrade would otherwise have been needed. The approach requires no hardware additions and is deployable across a wide range of homes. Field results were published in <a href="https://doi.org/10.1016/j.apenergy.2025.125522" target="_blank" style="color: black; text-decoration: underline;">Applied Energy (2025)</a>, and a US-wide parametric extension was published at <a href="https://doi.org/10.1088/1742-6596/3140/5/052027" target="_blank" style="color: black; text-decoration: underline;">CISBAT 2025</a>. The controller is covered by a US patent application.
 
 <div style="text-align: center;">
-  <img src="../images/flow_chart_updated.jpg" alt="Alt Text" width="400" height="400">
+  <img src="../images/flow_chart_updated.jpg" alt="Controller architecture" width="400" height="400">
 </div>
 
-**Thermal equipment, communication protocols, and other work**
+**Frost mitigation through smart load regulation**
 
-During my PhD and my internship at the Advanced Technology Group of Lennox International (Carrollton, Texas), I have been involved in multiple projects, including defrost modeling, an advanced controller for backup heat in heat pumps (to improve comfort), equipment A2L leakage testing, sensor integration, and cloud storage, advanced cycle architecture designs.
+Frost accumulation on outdoor coils is one of the largest sources of efficiency loss and comfort degradation for air-source heat pumps in cold and humid climates. We demonstrated that active load regulation — using a smart controller to modulate the operating point of the heat pump — can materially reduce frost accumulation without hardware changes, published at <a href="https://doi.org/10.34641/clima.2025.319" target="_blank" style="color: black; text-decoration: underline;">CLIMA 2025 (Milan)</a>, with an extended journal version in preparation.
 
 <div style="text-align: center;">
-  <img src="../images/blockDiagram.png" alt="Alt Text" width="400" height="400">
+  <img src="../images/mpc_vs_rbc_spec_day.jpg" alt="MPC vs. rule-based control on a representative winter day" width="600" height="600">
 </div>
 
-Block diagram of a fully networked IoT infrastructure for our test house. We can read measurements from a water heater, a heat pump, a smart thermostat, and an electrical smart meter. This allows us generating all our machine learning and grey box models in our house.
+**Novel thermodynamic cycles**
+
+Alongside my controls work, I contributed to two novel thermodynamic-cycle projects during my PhD. The <a href="https://www.energy.gov/eere/buildings/articles/no-vapor-compression-electrochemical-looping-heat-pump-novel-hp" target="_blank" style="color: black; text-decoration: underline;">electrochemical looping heat pump</a> replaces the mechanical compressor with a phase-change electrochemical reaction; I worked on advancing the cycle in heating operation, designing the thermal management system, and screening working substances. Separately, I proposed a modification to the standard cascade cycle for <a href="https://heatpumpingtechnologies.org/news/1/58534/" target="_blank" style="color: black; text-decoration: underline;">high-temperature heat pumps</a>, introducing an open economizer to the upper loop to improve efficiency and expand the safe operating envelope of the compressor at minimal added cost.
 
 <div style="text-align: center;">
-  <img src="../images/Conceptual-diagram-of-technology1-1 (2).png" alt="Alt Text" width="600" height="600">
-</div>
-
-A smart rule-based scheduling system for PWM modulation of backup heat supply (USPTO patent pending).
-
-<div style="text-align: center;">
-  <img src="../images/mpc_vs_rbc_spec_day.jpg" alt="Alt Text" width="600" height="600">
-</div>
-
-First demonstration of frost regulation through smart set-point adjustment, a journal presentation is in the making.
-
-<div style="text-align: center;">
-  <img src="../images/Picture3.png" alt="Alt Text" width="400" height="400">
+  <img src="../images/picture_of_elhp.jpg" alt="Electrochemical looping heat pump prototype" width="400" height="400">
 </div>
 
 <div style="text-align: center;">
-  <img src="../images/picture_of_elhp.jpg" alt="Alt Text" width="400" height="400">
+  <img src="../images/cycle_architecture.png" alt="Cascade economization cycle architecture" width="300" height="300">
 </div>
-
-The chemical looping heat pump is a novel electrochemical cycle that uses phase change reactions to avoid the need for a compressor. I worked on advancing the cycle in heating operation, designing the thermal management system of the fuel cell, and finding appropriate working substances.
-
-<div style="text-align: center;">
-  <img src="../images/cycle_architecture.png" alt="Alt Text" width="300" height="300">
-</div>
-
-High-temperature heat pumps (HTHPs) have significant potential for decarbonizing the process industry. However, they suffer from efficiency degradations at high lift temperatures (the difference between source and sink) as well as a loss of capacity. As such, most advanced HTHPs use a cascade cycle with two separate refrigerant loops. We proposed a modification to the common cascade cycle by introducing an open economizer to the upper cascade loop, leading to significant efficiency improvements and safer operation of the compressor at a minimal cost.

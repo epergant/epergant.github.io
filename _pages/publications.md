@@ -39,6 +39,26 @@ For heating, we developed and deployed an MPC for an air-source heat pump in a c
 
 Broader lessons from these and related field studies — including a synthesis of what works and what does not when deploying MPC and reinforcement learning on real residential and commercial HVAC systems — are documented in a recent review in <a href="https://doi.org/10.1016/j.apenergy.2025.126459" target="_blank" style="color: black; text-decoration: underline;">Applied Energy (2025)</a>.
 
+**Reinforcement learning vs. model predictive control: a field comparison**
+
+MPC has consistently delivered energy savings in HVAC field studies, but it requires substantial engineering effort per home — models must be identified, calibrated, and maintained. Reinforcement learning promises greater automation and adaptability, but its practical use in real, occupied residential settings remains largely undemonstrated: safety, interpretability, and sample-efficiency have all been open questions.
+
+To probe these trade-offs directly, we deployed an MPC and a model-based RL controller side-by-side in an occupied house with a heat pump in West Lafayette, Indiana, running each for a one-month period and evaluating both against the incumbent thermostat. The study focused on scalability, safety guarantees, and comparability across paradigms, and was carried out jointly with collaborators at Carnegie Mellon University. A preprint is available on <a href="https://arxiv.org/abs/2510.01475" target="_blank" style="color: black; text-decoration: underline;">arXiv</a> (under review at <i>Applied Energy</i>).
+
+<div style="text-align: center;">
+  <img src="../images/MPC_vs_RL.png" alt="MPC vs RL paradigm" width="400" height="400">
+</div>
+
+**Data-driven estimation of residential design loads at scale**
+
+Oversized heating and cooling equipment inflates up-front cost, energy use, emissions, and stress on the electrical grid — but the Manual J calculations used to size residential equipment are labor-intensive and prone to error, and rarely revisited after installation. With co-authors at Purdue, I developed two purely data-driven methods for estimating design heating loads: one from smart thermostat time-series, one from monthly utility bills.
+
+We tested the methods on a dataset we assembled across 74 detached single-family houses in five US climate zones, combining thermostat telemetry, utility bills, weather data, existing equipment specifications, and practitioner Manual J calculations. Both methods showed strong goodness-of-fit and fair agreement with each other, and revealed that existing heating equipment is on average 2.75× (thermostat method) to 2.96× (bill method) larger than needed — with the top of the distribution reaching 6–7× oversizing. The <a href="https://arxiv.org/abs/2609.07619" target="_blank" style="color: black; text-decoration: underline;">preprint is on arXiv</a>.
+
+<div style="text-align: center;">
+  <img src="../images/Map_manualJ.png" alt="Locations of investigated homes" width="400" height="400">
+</div>
+
 **Whole-home load coordination and electrical panel protection**
 
 A <a href="https://www.epri.com/research/products/000000003002026736" target="_blank" style="color: black; text-decoration: underline;">recent EPRI report</a> estimated that as many as 20 million US homes will need to upgrade their electrical panel over the coming decade to support the electrification of space conditioning, water heating, and on-site EV charging — with cold-climate regions particularly affected due to reliance on gas furnaces and resistive backup heat. Panel upgrades typically cost thousands of dollars per home.

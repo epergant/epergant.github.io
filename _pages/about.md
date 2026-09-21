@@ -28,7 +28,7 @@ During my Ph.D., I was an Onassis Foundation Scholar and the recipient of an ASH
 
 I'm always open to conversations about roles and collaborations in forecasting, optimization, controls, and machine learning for distributed energy, grid-interactive buildings, and HVAC systems.
 
-Here is my <b><a href="https://epergant.github.io/files/CV_Pergantis_2026_092026.pdf" target="_blank" style="color: black; text-decoration:none;">CV</a></b>.
+Here is my <b><a href="https://epergant.github.io/files/CV_Pergantis.pdf" target="_blank" style="color: black; text-decoration:none;">CV</a></b>.
 
 Some highlights of my work:
 - Lead Engineer at Trane Technologies developing next-generation smart HVAC and thermostat control algorithms, from model identification through HIL validation to production embedded deployment.

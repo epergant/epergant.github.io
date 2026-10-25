@@ -13,7 +13,7 @@ author_profile: true
 
 **Smart HVAC and thermostat controls at Trane Technologies**
 
-As a Lead Engineer in the Residential R&D group at Trane Technologies, I develop advanced control algorithms for residential HVAC equipment and smart thermostats. My work spans model identification from lab and field data, model-based and machine-learning-based control (including model predictive control), hardware-in-the-loop (HIL) validation, and production embedded code generated from Modelica and MATLAB/Simulink toolchains. Broader themes include electrification of residential heating, occupant-centric comfort, user-facing energy-saving features, and grid-interactive building operation. Recent contributions have led to nine patent applications on smart HVAC, thermostat, and residential energy control.
+As Lead Engineer, Controls and Algorithms in the Residential R&D group at Trane Technologies, I develop advanced control algorithms for residential HVAC equipment and smart thermostats. My work spans model identification from lab and field data, model-based and machine-learning-based control (including model predictive control), hardware-in-the-loop (HIL) validation, and production embedded code generated from Modelica and MATLAB/Simulink toolchains. Broader themes include electrification of residential heating, occupant-centric comfort, user-facing energy-saving features, and grid-interactive building operation. Recent contributions have led to nine patent applications on smart HVAC, thermostat, and residential energy control.
 
 **Field-validated predictive control for residential HVAC**
 

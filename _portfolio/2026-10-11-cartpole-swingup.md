@@ -6,7 +6,7 @@ date: 2026-10-25
 excerpt: "One under-actuated benchmark, six controllers, five axes of comparison: sample complexity, robustness to model mismatch, constraint handling, compute, and engineering effort. <em>In progress, updated as results come in.</em><br/><img src='/images/cartpole/teaser.png' width='500' alt='Time-lapse of the cart-pole swing-up'>"
 ---
 
-<p style="font-size: 0.9em;"><strong>Status:</strong> in progress &middot; <strong>Last updated:</strong> October 25, 2026 &middot; <strong>Code:</strong> <a href="https://github.com/epergant/cartpole-swingup">github.com/epergant/cartpole-swingup</a></p>
+<p style="font-size: 0.9em;"><strong>Status:</strong> in progress &middot; <strong>Last updated:</strong> October 25, 2026</p>
 
 In my day job and in my research, I keep coming back to the same question: when should you use model predictive control (MPC), and when should you use reinforcement learning (RL)? In buildings, every data point for that question costs a month of field testing. This project asks the same question on a problem where a trial takes a fraction of a second: swinging up a pole on a cart and balancing it upright.
 

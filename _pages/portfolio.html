@@ -1,14 +1,15 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Personal Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p>Side projects, mostly coding-heavy studies in control, optimization, and learning. Each page is a running log: I post results as they come in and keep updating the page as the work moves.</p>
 
-{% for post in site.portfolio %}
+{% assign projects = site.portfolio | sort: "date" | reverse %}
+{% for post in projects %}
   {% include archive-single.html %}
 {% endfor %}
-

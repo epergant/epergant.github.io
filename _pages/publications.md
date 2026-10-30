@@ -13,7 +13,7 @@ author_profile: true
 
 **Smart HVAC and thermostat controls at Trane Technologies**
 
-As Lead Engineer, Controls and Algorithms in the Residential R&D group at Trane Technologies, I develop advanced control algorithms for residential HVAC equipment and smart thermostats. My work spans model identification from lab and field data, model-based and machine-learning-based control (including model predictive control), hardware-in-the-loop (HIL) validation, and production embedded code generated from Modelica and MATLAB/Simulink toolchains. Broader themes include electrification of residential heating, occupant-centric comfort, user-facing energy-saving features, and grid-interactive building operation. Recent contributions have led to nine patent applications on smart HVAC, thermostat, and residential energy control.
+As Lead Engineer, Controls and Algorithms in the Residential R&D group at Trane Technologies, I lead strategic new technology development around smart algorithms for residential HVAC equipment and smart thermostats. My work spans model identification from lab and field data, model-based and machine-learning-based control (including model predictive control), hardware-in-the-loop (HIL) validation, and production embedded code generated from Modelica and MATLAB/Simulink toolchains. Broader themes include electrification and decarbonization of residential heating and cooling, occupant-centric comfort, user-facing energy-saving features, and grid-interactive building operation. Recent contributions have led to nine patent applications on smart HVAC, thermostat, and residential energy control.
 
 **Field-validated predictive control for residential HVAC**
 
@@ -72,6 +72,12 @@ We developed a novel active current-limiting controller that coordinates on-site
 <div style="text-align: center;">
   <img src="../images/flow_chart_updated.jpg" alt="Controller architecture" width="400" height="400">
 </div>
+
+**Distribution-grid impacts of electrification (EDGIE)**
+
+Electrifying space heating, water heating and vehicles cuts emissions, but it can create demand peaks that strain distribution grids. With collaborators at Purdue, Georgia Tech and CU Boulder, I co-authored EDGIE (Emulating the Distribution Grid Impacts of Electrification), an open-source simulation toolbox calibrated on measured data from an all-electric home in a cold climate. It models heat pumps, water heaters, EVs and building thermal dynamics across locations and adoption levels, with optimization and network power-flow simulation built in.
+
+In a fully electrified New York neighborhood during the coldest week of 2019, peak demand reached about four times today's summer peak, and was especially sensitive to overnight thermostat setbacks and to heat pump and envelope efficiency. Coordinating vehicle-to-home operation with flexible space and water heating cut peak demand by 35% and transformer degradation by 99% (<a href="https://aisel.aisnet.org/hicss-57/es/resilient_networks/4/" target="_blank" style="color: black; text-decoration: underline;">HICSS-57, 2024</a>). EDGIE has since been used in a county-by-county study of the lower 48 states, which estimates $350-790 billion in distribution-grid reinforcement under full residential electrification and finds that demand-side management could avoid most of it (<a href="https://constancecrozier.github.io/files/CELL_REPORTS_SUSTAINABILITY.pdf" target="_blank" style="color: black; text-decoration: underline;">Cell Reports Sustainability</a>).
 
 **Frost mitigation through smart load regulation**
 
